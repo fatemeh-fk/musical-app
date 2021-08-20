@@ -24,6 +24,13 @@
 		25154AB026D00F3500D12279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25154AB326D00F3500D12279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25154AB526D00F3500D12279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25154ABE26D0310D00D12279 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		25154ABF26D0310D00D12279 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		25154AC026D0310D00D12279 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		25154AC126D0310D00D12279 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		25154AC226D0310D00D12279 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		25154AC326D0310D00D12279 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		25154AC426D0310D00D12279 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 		25154AA626D00F3500D12279 /* musical app */ = {
 			isa = PBXGroup;
 			children = (
+				25154ABD26D0310D00D12279 /* Sounds */,
 				25154AA726D00F3500D12279 /* AppDelegate.swift */,
 				25154AA926D00F3500D12279 /* SceneDelegate.swift */,
 				25154AAB26D00F3500D12279 /* ViewController.swift */,
@@ -65,6 +73,20 @@
 				25154AB526D00F3500D12279 /* Info.plist */,
 			);
 			path = "musical app";
+			sourceTree = "<group>";
+		};
+		25154ABD26D0310D00D12279 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				25154ABE26D0310D00D12279 /* A.wav */,
+				25154ABF26D0310D00D12279 /* C.wav */,
+				25154AC026D0310D00D12279 /* B.wav */,
+				25154AC126D0310D00D12279 /* F.wav */,
+				25154AC226D0310D00D12279 /* G.wav */,
+				25154AC326D0310D00D12279 /* E.wav */,
+				25154AC426D0310D00D12279 /* D.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
